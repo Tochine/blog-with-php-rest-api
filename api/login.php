@@ -66,7 +66,7 @@ if ($email_exists && password_verify($data->password, $user->password)) {
     $jwt = JWT::encode($token, $secret_key);
     echo json_encode(
         array(
-            "message" => "Successful login.",
+            "message" => "User logged in!.",
             "jwt" => $jwt,
             "email" => $user->email,
             "expireAt" => $expire_claim

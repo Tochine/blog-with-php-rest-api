@@ -1,5 +1,6 @@
 # dependencies
 /vendor
+/jwt
 
 # misc
 .DS_Store
