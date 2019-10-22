@@ -5,8 +5,8 @@ class Database
 
     private $host = 'localhost';
     private $db_name = 'php-blog';
-    private $username = '******';
-    private $password = '******';
+    private $username = 'root';
+    private $password = 'root';
     private $conn;
 
     public function getConnection()
@@ -20,7 +20,7 @@ class Database
                 $this->password
             );
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Connection Successful";
+            echo "Database Connection Successful";
         } catch (PDOException $exception) {
             echo 'Connection failed: ' . $exception->getMessage();
             exit();

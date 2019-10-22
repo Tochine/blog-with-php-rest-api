@@ -1,6 +1,6 @@
 <?php
 // Database file needed.
-include_once '../config/Database.php';
+include_once '../../config/Database.php';
 
 // headers needed.
 header("Access-Control-Allow-Origin: http://localhost:8888/php-blog/");
