@@ -5,8 +5,8 @@ class Database
 
     private $host = 'localhost';
     private $db_name = 'php-blog';
-    private $username = 'root';
-    private $password = 'root';
+    private $username = '******';
+    private $password = '******';
     private $conn;
 
     public function getConnection()
