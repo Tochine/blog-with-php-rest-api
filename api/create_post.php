@@ -2,6 +2,7 @@
 
 // files needed to connect to database
 include_once '../config/Database.php';
+include_once '../models/Post.php';
 
 // headers needed
 header("Access-Control-Allow-Origin: http://localhost:8888/php-blog/");
@@ -10,7 +11,6 @@ header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
-include_once '../models/Post.php';
 
 //database connection
 $database = new Database();

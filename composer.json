@@ -1,20 +1,13 @@
 {
-  "name": "firebase/php-jwt",
-  "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-  "homepage": "https://github.com/firebase/php-jwt",
+  "name": "php-oop-crud-with-rest-api",
+  "description": "A simple php crud project with REST API",
+  "homepage": "https://github.com/Tochine/blog-with-php-rest-api-backend",
   "authors": [
     {
-      "name": "Neuman Vong",
-      "email": "neuman+pear@twilio.com",
-      "role": "Developer"
-    },
-    {
-      "name": "Anant Narayanan",
-      "email": "anant@php.net",
+      "name": "Tochukwu Adams",
       "role": "Developer"
     }
   ],
-  "license": "BSD-3-Clause",
   "require": {
     "php": ">=5.3.0"
   },
